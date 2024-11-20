@@ -1,0 +1,36 @@
+/* popup.css */
+
+html {
+	width: 300px;
+	height: 500px;
+}
+
+body {
+	background-color:#1B8C4C;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 0px 10px 0px;
+}
+
+.spacer {
+	width: 130px;
+}
+
+.small,
+.large {
+	color: #000000;
+	background-color: #333333;
+	border-color: #333333;
+	box-shadow: 0 0 0 0.1rem rgba(255,255,255,0.1);
+}
+
+.small {
+	width: 20%;
+}
+
+.large {
+	width: 100%;
+}

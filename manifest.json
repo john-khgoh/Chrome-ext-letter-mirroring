@@ -1,0 +1,19 @@
+{
+	"name": "Letter mirroring for dyslexia",
+	"description": "Letter mirroring Chrome extension for dyslexics. It can also be used to simulate the dyslexia reading experience.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"permissions": ["storage", "activeTab", "scripting", "tabs"],
+	"host_permissions": ["*://*/*"],
+	"author": "John K H Goh",
+	"action": {
+		"default_title": "Letter mirroring menu",
+		"default_popup": "popup.html"
+	},
+	"icons": {
+		"16": "icon16.png",
+		"32": "icon32.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	}
+}
